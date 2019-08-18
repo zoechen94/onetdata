@@ -18,4 +18,5 @@ public class MediaBaiKe {
     private String keyword;
     private String file;
     private String name;
+    private String fileName;
 }

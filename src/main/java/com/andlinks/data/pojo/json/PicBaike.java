@@ -18,4 +18,5 @@ public class PicBaike {
     private String keyword;
     private String file;
     private String name;
+    private String fileName;
 }
