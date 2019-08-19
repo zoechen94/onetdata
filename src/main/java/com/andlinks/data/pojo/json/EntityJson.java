@@ -1,5 +1,7 @@
 package com.andlinks.data.pojo.json;
 
+import com.alibaba.fastjson.JSONObject;
+import com.andlinks.data.pojo.res.Res;
 import lombok.Data;
 
 import java.util.List;
@@ -14,5 +16,8 @@ public class EntityJson {
     private String name;
     private String url;
     private String lemma_summary;
-    private Object infobox;
+    private JSONObject infobox;
+    private String pic;
+    private String media;
+    private String type;
 }
